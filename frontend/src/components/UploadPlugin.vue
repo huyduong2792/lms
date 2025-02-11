@@ -8,7 +8,8 @@
 	/>
 </template>
 <script setup>
-import { FileUploader } from 'frappe-ui'
+// import { FileUploader } from 'frappe-ui'
+import FileUploader from '@/components/FileUploader.vue'
 import { onMounted, ref, nextTick } from 'vue'
 
 const fileUploader = ref(null)
